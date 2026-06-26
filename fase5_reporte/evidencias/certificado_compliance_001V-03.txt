@@ -1,0 +1,15 @@
+============================================
+   CERTIFICADO DE COMPLIANCE - EP3 DRY7122
+============================================
+Alumno   : Jonathan Francisco Carcasson Villa (001V-03)
+Cliente  : Vinedos del Valle SA
+Hostname : RTR-VINVAL
+Fecha    : 2026-06-26 03:20:42.938533
+--------------------------------------------
+Validacion NETCONF  : NO CONFORME
+Validacion RESTCONF : CONFORME
+Diff detectado      : NO (0 archivos)
+--------------------------------------------
+RESULTADO GLOBAL    : NO CONFORME
+============================================
+Equipo REQUIERE REVISION.
