@@ -1,0 +1,16 @@
+codigo: "001V-03"
+nombre: "Jonathan Francisco Carcasson Villa"
+cliente:
+  empresa: "Vinedos del Valle SA"
+  hostname: "RTR-VINVAL"
+router:
+  ip: "192.168.56.101"
+  usuario: "cisco"
+  password: "cisco123!"
+  loopback_id: 10
+  loopback_ip: "10.1.3.1"
+  loopback_mask: "255.255.255.0"
+  loopback_prefix: "24"
+  descripcion_wan: "Enlace-WAN-Concepcion"
+  banner: "ACCESO RESTRINGIDO - VINVAL"
+  ntp_server: "9.9.9.9"
