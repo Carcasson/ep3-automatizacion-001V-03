@@ -1,0 +1,5 @@
+=== BASELINE SNAPSHOT ===
+Alumno : 001V-03
+Fecha  : Fri 26 Jun 2026 01:29:00 AM UTC
+Host   : labvm
+=========================

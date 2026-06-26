@@ -1,0 +1,204 @@
+[2026-06-26 01:04:06,401] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:04:06,401] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:04:08,608] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 140039300766448 +++
+[2026-06-26 01:04:08,609] connection to CSR1kv
+[2026-06-26 01:04:45,336] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:04:45,337] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:04:45,430] +++ connection to spawn: ssh -l cisco -o KexAlgorithms=diffie-hellman-group14-sha1 192.168.56.101 22, id: 140137374158080 +++
+[2026-06-26 01:04:45,430] connection to CSR1kv
+[2026-06-26 01:10:04,844] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:10:04,844] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:10:04,945] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139674620296448 +++
+[2026-06-26 01:10:04,945] connection to CSR1kv
+[2026-06-26 01:14:37,177] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:14:37,178] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:14:37,357] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1, id: 140645295885568 +++
+[2026-06-26 01:14:37,357] connection to CSR1kv
+[2026-06-26 01:16:11,683] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:16:11,684] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:16:11,806] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 140240717126864 +++
+[2026-06-26 01:16:11,806] connection to CSR1kv
+[2026-06-26 01:16:53,864] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:16:53,864] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:16:53,963] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139899967892688 +++
+[2026-06-26 01:16:53,964] connection to CSR1kv
+[2026-06-26 01:17:24,654] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:17:24,654] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:17:24,747] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139881698585808 +++
+[2026-06-26 01:17:24,747] connection to CSR1kv
+[2026-06-26 01:19:57,497] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:19:57,497] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:19:57,608] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139853772614912 +++
+[2026-06-26 01:19:57,608] connection to CSR1kv
+[2026-06-26 01:20:43,416] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:20:43,416] +++ Unicon plugin iosxe +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MEY3Hd7C574wPna0ZBBsoZ/B9vqiBybKZt4QxPPE4O0.
+Please contact your system administrator.
+Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/devasc/.ssh/known_hosts:1
+  remove with:
+  ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.56.101"
+RSA host key for 192.168.56.101 has changed and you have requested strict checking.
+Host key verification failed.
+
+[2026-06-26 01:20:43,525] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139982855597312 +++
+[2026-06-26 01:20:43,525] connection to CSR1kv
+[2026-06-26 01:28:10,448] +++ CSR1kv logfile evidencias/baseline_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 01:28:10,449] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-26 01:28:10,584] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no, id: 139633796750640 +++
+[2026-06-26 01:28:10,584] connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+CSR1kv#
+[2026-06-26 01:28:10,672] +++ initializing handle +++

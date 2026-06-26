@@ -1,0 +1,48 @@
+[36mloading yaml file /home/devasc/ep3-automatizacion-001V-03/fase1_baseline/testbed_001V-03.yaml[0m[39m
+[36mDeriving testbed name ...[0m[39m
+[36mUsing a default key as pyATS configuration under [secrets] string.key was not specified.[0m[39m
+[36mUsing a default key as pyATS configuration under [secrets] string.key was not specified.[0m[39m
+[36mCredential credentials not found, trying default ...[0m[39m
+[36mCredential credentials not found, trying default ...[0m[39m
+
+Learning '['interface', 'platform', 'routing']' on devices '['CSR1kv']'
+[36mTraceback (most recent call last):
+  File "src/unicon/eal/backend/pty_backend.py", line 452, in unicon.eal.backend.pty_backend.RawPtySpawn._read
+OSError: [Errno 5] Input/output error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/unicon/statemachine/statemachine.py", line 719, in unicon.statemachine.statemachine.StateMachine.go_to
+  File "src/unicon/statemachine/statetransition.py", line 481, in unicon.statemachine.statetransition.AnyStateTransition.do_transitions
+  File "src/unicon/eal/backend/pty_backend.py", line 318, in unicon.eal.backend.pty_backend.RawSpawn.expect
+  File "src/unicon/eal/backend/pty_backend.py", line 133, in unicon.eal.backend.pty_backend.RawSpawn.read_update_buffer
+  File "src/unicon/eal/backend/pty_backend.py", line 118, in unicon.eal.backend.pty_backend.RawSpawn.read
+  File "src/unicon/eal/backend/pty_backend.py", line 455, in unicon.eal.backend.pty_backend.RawPtySpawn._read
+unicon.core.errors.EOF: ('Unable to read. Connection closed or not available', OSError(5, 'Input/output error'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/unicon/bases/connection.py", line 627, in unicon.bases.connection.Connection.connect
+  File "src/unicon/bases/routers/connection_provider.py", line 144, in unicon.bases.routers.connection_provider.BaseSingleRpConnectionProvider.connect
+  File "src/unicon/bases/routers/connection_provider.py", line 166, in unicon.bases.routers.connection_provider.BaseSingleRpConnectionProvider.establish_connection
+  File "src/unicon/statemachine/statemachine.py", line 722, in unicon.statemachine.statemachine.StateMachine.go_to
+unicon.core.errors.StateMachineError: Failed while bringing device to "any" state
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/pyats/cli/base.py", line 207, in pyats.cli.base.Command.main
+  File "src/genie/cli/commands/learn.py", line 125, in genie.cli.commands.learn.LearnCommand.run
+  File "src/genie/cli/commands/learn.py", line 165, in genie.cli.commands.learn.LearnCommand._learn_ops
+  File "src/genie/conf/base/device.py", line 633, in genie.conf.base.device.Device.connect
+  File "src/pyats/connections/manager.py", line 334, in pyats.connections.manager.ConnectionManager.connect
+  File "src/unicon/bases/connection.py", line 633, in unicon.bases.connection.Connection.connect
+unicon.core.errors.ConnectionError: failed to connect to CSR1kv
+Failed while bringing device to "any" state
+[0m[39m
+[1m[31m
+failed to connect to CSR1kv
+Failed while bringing device to "any" state[0m[39m
+
