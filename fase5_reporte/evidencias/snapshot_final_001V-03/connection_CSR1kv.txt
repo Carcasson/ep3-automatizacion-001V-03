@@ -65,4 +65,31 @@ RTR-VINVAL#[2026-06-26 03:59:16,939] +++ CSR1kv logfile evidencias/snapshot_fina
 
 ACCESO RESTRINGIDO - VINVAL
 
+RTR-VINVAL#[2026-06-26 04:06:43,099] +++ CSR1kv logfile evidencias/snapshot_final_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 04:06:43,100] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-26 04:06:43,191] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa, id: 140712520703232 +++
+[2026-06-26 04:06:43,192] connection to CSR1kv
+
+ACCESO RESTRINGIDO - VINVAL
+
+
+RTR-VINVAL#[2026-06-26 04:08:52,901] +++ CSR1kv logfile evidencias/snapshot_final_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 04:08:52,901] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-26 04:08:52,998] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa, id: 139953208331520 +++
+[2026-06-26 04:08:52,998] connection to CSR1kv
+
+ACCESO RESTRINGIDO - VINVAL
+
+
+RTR-VINVAL#[2026-06-26 04:13:09,613] +++ CSR1kv logfile evidencias/snapshot_final_001V-03/connection_CSR1kv.txt +++
+[2026-06-26 04:13:09,613] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-26 04:13:09,699] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa, id: 140105647336704 +++
+[2026-06-26 04:13:09,699] connection to CSR1kv
+
+ACCESO RESTRINGIDO - VINVAL
+
+
 RTR-VINVAL#

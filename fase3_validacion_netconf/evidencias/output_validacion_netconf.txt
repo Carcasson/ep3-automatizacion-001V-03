@@ -1,13 +1,13 @@
 === VALIDACION NETCONF ===
 Script : validacion_netconf.py
-Fecha  : 2026-06-26 02:55:32.991084
+Fecha  : 2026-06-26 03:47:00.517134
 Host   : labvm
 ==========================
 [OK] hostname: esperado=RTR-VINVAL obtenido=RTR-VINVAL
 [OK] loopback_ip: esperado=10.1.3.1 obtenido=10.1.3.1
 [OK] loopback_mask: esperado=255.255.255.0 obtenido=255.255.255.0
 [OK] descripcion_wan: esperado=Enlace-WAN-Concepcion obtenido=Enlace-WAN-Concepcion
-[FAIL] ntp: esperado=9.9.9.9 obtenido=None
+[OK] ntp: esperado=9.9.9.9 obtenido=9.9.9.9
 
-Resultado: 4/5 criterios
-NO CONFORME
+Resultado: 5/5 criterios
+CONFORME

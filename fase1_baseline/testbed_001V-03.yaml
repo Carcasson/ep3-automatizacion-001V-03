@@ -11,7 +11,4 @@ devices:
         protocol: ssh
         ip: 192.168.56.101
         port: 22
-        arguments:
-          init_exec_commands: []
-          init_config_commands: []
-        ssh_options: -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAuthentication=no
+        ssh_options: -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa

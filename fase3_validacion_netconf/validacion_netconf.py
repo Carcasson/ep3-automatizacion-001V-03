@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, socket, datetime, yaml
+import os, sys, socket, datetime, yaml, re
 from ncclient import manager
 import xml.etree.ElementTree as ET
 
@@ -38,7 +38,8 @@ obtenido = {
     "loopback_ip":   find(f".//n:interface/n:Loopback[n:name='{r['loopback_id']}']/n:ip/n:address/n:primary/n:address"),
     "loopback_mask": find(f".//n:interface/n:Loopback[n:name='{r['loopback_id']}']/n:ip/n:address/n:primary/n:mask"),
     "descripcion_wan": find(".//n:interface/n:GigabitEthernet[n:name='1']/n:description"),
-    "ntp": find(".//n:ntp/n:server/n:server-list/n:ip-address") or find(".//n:ntp//n:ip-address"),
+    "ntp": (re.search(r'<ntp>.*?<ip-address>\s*([\d.]+)', xml, re.DOTALL).group(1)
+            if re.search(r'<ntp>.*?<ip-address>', xml, re.DOTALL) else None),
 }
 esperado = {
     "hostname": c["hostname"], "loopback_ip": r["loopback_ip"],

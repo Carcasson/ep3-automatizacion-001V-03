@@ -4,9 +4,9 @@
 Alumno   : Jonathan Francisco Carcasson Villa (001V-03)
 Cliente  : Vinedos del Valle SA
 Hostname : RTR-VINVAL
-Fecha    : 2026-06-26 03:20:42.938533
+Fecha    : 2026-06-26 04:05:04.737037
 --------------------------------------------
-Validacion NETCONF  : NO CONFORME
+Validacion NETCONF  : CONFORME
 Validacion RESTCONF : CONFORME
 Diff detectado      : NO (0 archivos)
 --------------------------------------------
